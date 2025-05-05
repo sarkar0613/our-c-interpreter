@@ -2,7 +2,7 @@
 
 A recursive descent parser and interpreter for a simplified C-like language named **Our-C**, developed for a Programming Languages final project.
 
-## 🔧 Features
+## Features
 
 - Tokenizer (Lexical Analyzer)
 - Recursive Descent Parser
@@ -13,7 +13,7 @@ A recursive descent parser and interpreter for a simplified C-like language name
   - `ListAllVariables();`
   - `Done();`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Our-C-Project/
@@ -30,14 +30,14 @@ Our-C-Project/
 │   └── Java6-ExceptionHandling.doc
 ```
 
-## ▶️ Build & Run
+## Build & Run
 
 ```bash
 g++ src/main.cpp -o ourc
 ./ourc < test/sample_code.c
 ```
 
-## 🧪 Sample Input
+## Sample Input
 
 ```c
 int a;
@@ -47,12 +47,12 @@ void print() {
 Done();
 ```
 
-## 📄 Documentation
+## Documentation
 
 - `doc/Our-C-Grammar-2016-07-15.doc`: Detailed grammar of the Our-C language
 - `doc/RecursiveDescentParsing-Intro.doc`: Parsing strategy overview
 - `doc/Java6-ExceptionHandling.doc`: Reference on exception handling
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
