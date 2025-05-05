@@ -1,0 +1,15 @@
+# C/C++ build artifacts
+*.o
+*.out
+*.exe
+*.obj
+*.log
+*.gch
+
+# IDE settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
